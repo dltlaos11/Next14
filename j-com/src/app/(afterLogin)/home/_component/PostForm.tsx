@@ -20,7 +20,10 @@ export default function PostForm() {
   };
 
   const onClickButton = () => {
-    imageRef.current?.click();
+    // imageRef.current?.click();
+    if (imageRef.current) {
+      imageRef.current.click();
+    }
   };
 
   return (
