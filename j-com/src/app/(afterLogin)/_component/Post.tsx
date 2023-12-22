@@ -10,6 +10,7 @@ dayjs.extend(relativeTime);
 
 export default function Post() {
   const target = {
+    // server data
     User: {
       id: "elonmusk",
       nickname: "Elon Musk",
