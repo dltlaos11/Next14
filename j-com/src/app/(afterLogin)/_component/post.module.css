@@ -5,7 +5,7 @@
   border-color: rgb(239, 243, 244);
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  transition-property: background-color, box-shadow; // 게시물
+  transition-property: background-color, box-shadow;
   transition-duration: 0.2s;
   cursor: pointer;
 }
