@@ -5,7 +5,7 @@ import relativeTime from "dayjs/plugin/relativeTime";
 import "dayjs/locale/ko";
 import ActionButtons from "@/app/(afterLogin)/_component/ActionButtons";
 import PostArticle from "@/app/(afterLogin)/_component/PostArticle";
-import { faker } from "@faker-js/faker"; // default import가 아닌 named import
+import { faker } from "@faker-js/faker";
 import PostImages from "@/app/(afterLogin)/_component/PostImages";
 
 dayjs.locale("ko");
@@ -22,7 +22,7 @@ export default function Post({ noImage }: Props) {
       nickname: "Elon Musk",
       image: "/yRsRRjGO.jpg",
     },
-    content: "어 안녕?",
+    content: "어? 안녕?",
     createdAt: new Date(),
     Images: [] as any[],
   };
